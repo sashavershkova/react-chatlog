@@ -52,9 +52,9 @@ const App = () => {
           <span className={remoteColor}>{remoteSenderName(messagesData, localSenderName)}</span>
         </h1>
         <section>
-          <ColorChoice lable='local' setColorCallback={setLocalColor} />
+          <ColorChoice label='local' setColorCallback={setLocalColor} />
           <span className='widget' id='heartWidget'>{totalHearts} ❤️s</span>
-          <ColorChoice lable='remote' setColorCallback={setRemoteColor} />
+          <ColorChoice label='remote' setColorCallback={setRemoteColor} />
         </section>
       </header>
       <main>
